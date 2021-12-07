@@ -1,0 +1,36 @@
+/*
+ * This program pushes and prints a stack.
+ *
+ * @author  Ryan Chung
+ * @version 1.0
+ * @since   2021-12-07
+ */
+
+import java.util.ArrayList;
+
+/** This class contains the contents of a stack. */
+public class MrCoxallStack {
+
+    /** ArrayList signifying a stack. */
+    private ArrayList<Integer> stackAsArray = new ArrayList<Integer>();
+
+    /**
+     * Pushes the input into the stack.
+     *
+     * @param pushNumber The number to be added to the array
+     */
+    public void push(int pushNumber) {
+        stackAsArray.add(pushNumber);
+    }
+
+    /** Prints out the stack. */
+    public void showStack() {
+        final StringBuilder str = new StringBuilder();
+
+        for (int element : stackAsArray) {
+            str.append(String.valueOf(element));
+            str.append(" ");
+        }
+        System.out.println(str);
+    }
+}
