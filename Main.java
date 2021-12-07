@@ -25,7 +25,7 @@ final class Main {
      *
      * @param args No args will be used.
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         final MrCoxallStack aStack = new MrCoxallStack();
         final int number = 7;
         aStack.push(number);
