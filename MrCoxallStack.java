@@ -19,7 +19,7 @@ public class MrCoxallStack {
      *
      * @param pushNumber The number to be added to the array
      */
-    public void push(int pushNumber) {
+    public void push(final int pushNumber) {
         stackAsArray.add(pushNumber);
     }
 
