@@ -20,17 +20,15 @@ public class MrCoxallStack {
      * @param pushNumber The number to be added to the array
      */
     public void push(final int pushNumber) {
-        stackAsArray.add(pushNumber);
+        stackAsArray.add(0, pushNumber);
     }
 
     /** Prints out the stack. */
     public void showStack() {
-        final StringBuilder str = new StringBuilder();
-
         for (int element : stackAsArray) {
-            str.append(String.valueOf(element));
-            str.append(" ");
+            System.out.println(element);
         }
-        System.out.println(str);
+
+        System.out.println();
     }
 }

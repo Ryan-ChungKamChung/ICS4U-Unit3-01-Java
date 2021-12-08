@@ -27,8 +27,13 @@ final class Main {
      */
     public static void main(final String[] args) {
         final MrCoxallStack aStack = new MrCoxallStack();
-        final int number = 7;
-        aStack.push(number);
+        final int number1 = 7;
+        final int number2 = 42;
+
+        aStack.push(number1);
+        aStack.showStack();
+
+        aStack.push(number2);
         aStack.showStack();
     }
 }
