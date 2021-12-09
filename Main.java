@@ -35,5 +35,7 @@ final class Main {
 
         aStack.push(number2);
         aStack.showStack();
+
+        System.out.println("Done.");
     }
 }
