@@ -31,8 +31,6 @@ final class Main {
         final int number2 = 42;
 
         aStack.push(number1);
-        aStack.showStack();
-
         aStack.push(number2);
         aStack.showStack();
 
